@@ -1,0 +1,30 @@
+{
+  "name": "yl-scaler",
+  "version": "1.0.0",
+  "description": "Make your browser's solution looks just like what you want!",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node ./transform.js",
+    "test": "node ./lib/test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuri2peter/yl-scaler.git"
+  },
+  "keywords": [
+    "yuri2"
+  ],
+  "author": "yuri2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuri2peter/yl-scaler/issues"
+  },
+  "homepage": "https://github.com/yuri2peter/yl-scaler#readme",
+  "devDependencies": {
+    "babel-standalone": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.12.0",
+    "fs-extra": "^8.1.0"
+  }
+}
